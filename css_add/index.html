@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+
+<head id="head">
+  <title>Örnek HTML Web Sitesi</title>
+</head>
+
+<body>
+  <header>
+    <h1>Web Sitem</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Anasayfa</a></li>
+      <li><a href="#">Hakkımda</a></li>
+      <li><a href="#">iletişim</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Sayfama Hoş Geldiniz.</h2>
+    <p>Basit bir web sitesi işte</p>
+    <button onclick="addCSS()" id="button">Css</button>
+
+  </main>
+  <footer>
+    <p>Copyright ©Adapazarı Halk Eğitim</p>
+  </footer>
+  <script>
+    let counter = 0
+    function addCSS() {
+      counter++
+      if (counter % 2 !== 0) {
+        document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> \n<link rel="stylesheet" href="./styles.css" />'
+      } else {
+
+        document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> '
+
+      }
+    }
+  </script>
+</body>
+
+</html>
