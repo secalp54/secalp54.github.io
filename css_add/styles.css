@@ -15,22 +15,24 @@ body {
   }
   
   nav {
-    background-color: #aa80f3;
+    background-color: #7742d3;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: start;
+    align-items: end;
   }
   
   nav ul {
-    list-style: none;
+    list-style:inside;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: inline-flex;
   }
   
   nav li {
-    display: inline-block;
+    display: inline-flex;
     margin-right: 20px;
+    justify-content: start;
   }
   
   nav a {

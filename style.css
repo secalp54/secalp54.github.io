@@ -1,0 +1,15 @@
+.baslik{
+    color:red;
+}
+
+p[draggable]{
+    color:purple;
+}
+
+*{
+    background-color: antiquewhite;
+}
+
+
+
+ 
