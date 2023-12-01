@@ -99,4 +99,6 @@ header {
     font-size: 14px;
     color: blue;
   }
-  
+  #absolute{
+    position:relative;
+  }

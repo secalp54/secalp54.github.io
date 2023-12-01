@@ -1,0 +1,49 @@
+body{
+    font-size: 1.7rem;
+    font-family: 'popins';
+ }
+ #container{
+    margin: 50px;
+    
+ }
+ .img{
+    border-radius: 15px;
+    
+    height: 200px;
+    margin: 10px;
+    float: left;
+ }
+ .card{
+    width: 40%;
+ }
+ .right{
+    float:right;
+    
+ }
+ .left{
+    float: left;
+ }
+ .card-text{
+    text-align: justify;
+ }
+ span{
+    color: blueviolet;
+ }
+ footer{
+    clear: both;
+    text-align: end;
+    color: darkblue;
+    font-style: italic;
+ }
+ @media (max-width:700px) {
+    #header{
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: block;
+    }
+    .img{
+        width: 100%;
+    }
+ }
